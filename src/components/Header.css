@@ -1,0 +1,105 @@
+.main-header{
+    line-height: 23px;
+    font-weight: 500;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+}
+
+.top-Navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    transition: background-color 0.5s ease;
+  }
+
+.top-Navigation ul {
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.top-Navigation.scrolled {
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+  }
+
+  .top-Navigation.scrolled  a {
+    color: black;
+  }
+
+.header-img {
+    margin-top: 0.45rem;
+    width: 200px;
+    float: left;
+    position: fixed;
+}
+
+.top-Navigation a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-Navigation a:hover {
+    color: #AC2056;
+  }
+
+.top-Navigation li{
+    display: inline-block;
+    font-size: calc(10px + 2vmin);
+}
+
+ul {
+    list-style: none;
+    line-height: 0;
+}
+
+span.logo_helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+.contact-Button {
+    background-color: #AC2056; 
+    border-radius: 1px; 
+    padding: 14px 18px;
+    cursor: pointer;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 400;
+}
+
+.contact-Button.active {
+    font-weight: normal;
+  }
+
+.contact-Button a:hover {
+    color: black;
+    
+}
+
+.contact-Button.scrolled a:hover {
+    color: #fff;
+}
+
+.contact-button a {
+    color: #fff; 
+}
+
+nav li {
+    line-height: 1em;
+}
+
+.left-items {
+    margin-left: 35%;
+}
+
+.right-items {
+    margin-left: auto;
+}
