@@ -1,0 +1,55 @@
+.jobs-container {
+    background-color: white;
+    min-height: 600px;
+    width: 61%;
+    padding-left: 12%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 4.5rem;
+    margin-bottom: 10.5rem;
+    padding-bottom: 4rem;
+    border-block-end:  0.1rem solid;
+    border-block-end-color: rgba(0,0,0,.1);
+    border-block-start:  0.1rem solid;
+    border-block-start-color: rgba(0,0,0,.1);
+    overflow: visible;
+}
+
+
+.jobs-title {
+    font-size: 90px;
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: -2.5%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-container {
+    color: black;
+    line-height: 1.2;
+}
+
+.jobs-title-h3 {
+    font-size: 32px;
+    color: black;
+}
+
+.jobs-title-h4 {
+    font-size: 22px;
+    color: gray;
+}
+
+.ujob-list {
+    line-height: 1.2;
+    list-style-type: disc;
+}
+
+.job-list {
+    margin-bottom: 10px;
+}
+
+.job-info {
+    line-height: 1;
+}

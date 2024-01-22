@@ -1,0 +1,81 @@
+.titel-name {
+    color: black;
+    
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+p.titel-name {
+    margin-top: -4%;
+    color: #999;
+    font-size: smaller;
+    margin-bottom: 5%;
+}
+.contact-container {
+    background-color: white;
+    min-height: 1050px;
+    width: 73%;
+    padding-top: 60px;
+    margin-top: 22rem;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 22rem;
+    
+}
+
+.label-name {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 36.5%;
+    margin-top: 10px;
+    margin-left: 200px;
+    z-index: 2;
+    min-height: 1px;
+}
+
+.userinput {
+    size: 40px;
+    margin-top: 4px;
+    padding: 16px;
+    width: 180%;
+    border-width: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.big-userinput {
+    size: 150px;
+    margin-top: 4px;
+    padding: 16px;
+    min-height: 300px;
+    width: 180%;
+    border-width: 0;
+    border-radius: 0;
+    color: #999;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.send-Button {
+    background-color: #56AC20; 
+    color: white;
+    padding: 15px 22px;
+    line-height: 23px;
+    font-weight: 500;
+    display: inline-block;
+    font-size: calc(10px + 2vmin);
+    border: none;
+}
+.send-Button:hover {
+    cursor: pointer;
+    background-color: #68D126;
+}

@@ -3,7 +3,7 @@ import './App.css';
 import React from "react";
 import Products from "../components/Products";
 import Jobs from "../components/Jobs";
-import Support from "../components/Support";
+import Partner from "../components/Partner";
 import About from "../components/About";
 import Root from "../components/Root";
 import Contact from "../components/Contact";
@@ -16,7 +16,7 @@ const router = createBrowserRouter( createRoutesFromElements(
     <Route path="products" element={<Products/>}/>
     <Route path="about" element={ <About/>}/>
     <Route path="jobs" element={<Jobs/>}/>
-    <Route path="support" element={ <Support/>}/>  
+    <Route path="partner" element={ <Partner/>}/>  
     <Route path="contact" element={ <Contact/>}/>  
   </Route>))
 

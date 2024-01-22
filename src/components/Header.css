@@ -27,19 +27,20 @@ margin-bottom: 1rem;
     box-shadow: 0 1px 0 rgba(0,0,0,.1);
   }
 
-  .top-Navigation.scrolled  a {
+  .left-items.scrolled  a {
     color: black;
   }
 
 .header-img {
     margin-top: 0.45rem;
-    width: 200px;
+    margin-left: 1.5rem;
+    width: 125px;
     float: left;
     position: fixed;
 }
 
 .top-Navigation a {
-    padding: 10px;
+    padding: 17px;
     color: white;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -72,16 +73,18 @@ span.logo_helper {
     padding: 14px 18px;
     cursor: pointer;
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 400;
+    font-weight: 550;
 }
 
 .contact-Button.active {
     font-weight: normal;
   }
 
+.contact-Button:hover {
+    background-color: #D12668;
+}
 .contact-Button a:hover {
-    color: black;
-    
+    color: white !important;
 }
 
 .contact-Button.scrolled a:hover {

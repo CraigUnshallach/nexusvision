@@ -34,15 +34,15 @@ export default function Header () {
     <div className="main-header">
       <div className="logo_container">
         <span className="logo-helper"></span>
-        <Link to={"/"}><img src={Logo} className="header-img" alt="Header Image" /></Link>
+        <Link to={"/"}><img src={Logo} className="header-img" alt="Header" /></Link>
       </div>
       <nav className={`top-Navigation ${scrolling ? 'scrolled' : ''}`}>
-        <ul className="left-items">
+        <ul className={`left-items ${scrolling ? 'scrolled' : ''}`}>
           <li><NavLink to="/news">News</NavLink></li>
           <li><NavLink to="/products">Products</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/jobs">Jobs</NavLink></li>
-          <li><NavLink to="/support">Support</NavLink></li>
+          <li><NavLink to="/partner">Partner</NavLink></li>
         </ul>
         <ul className="right-items">
           <li className={`contact-Button ${scrolling ? 'scrolled' : ''}`}><NavLink to="/contact">CONTACT</NavLink></li>
@@ -51,10 +51,10 @@ export default function Header () {
         {
           currentUser.username
             ? <>
-                <NavLink to="/profile">Profile</NavLink>
+                <NavLink to="/">Profile</NavLink>
                 <button onClick={handleLogout} className="logout"> LogOut </button>
               </>
-            : <NavLink to="/sign-up">SignUp</NavLink>
+            : <NavLink to="/">SignUp</NavLink>
           }
       </nav>
     </div>
