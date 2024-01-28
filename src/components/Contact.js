@@ -16,7 +16,8 @@ function Contact() {
 
         const [formData, setFormData] = useState(initialFormState);
 
-        const clearForm = () => {
+        const clearForm = (e) => {
+            e.preventDefault();
             setFormData(initialFormState);
           };
     

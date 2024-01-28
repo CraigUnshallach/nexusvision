@@ -17,24 +17,28 @@ export default function Root() {
             <Header/>
             <main>
                 {location.pathname === '/' && <div className="title-container">
-                    <h1 className="title-h1"> WE ARE <br></br> NEXUSVISION</h1>
-                    <p className="title-p">Empowering tomorrow's Visionaries: Where Software Development Meets Innovation.</p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <ul className="button-Navigation">
-                        <li className='contact2-Button'><NavLink to="/contact">REQUESTS</NavLink></li>
-                        <li className='contact3-Button'><NavLink to="/products">PRODUCTS</NavLink></li>
+                    <div className="content-container">
 
-                    </ul>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                    
+                        <h1 className="title-h1"> WE ARE <br></br> NEXUSVISION</h1>
+                        <p className="title-p">Empowering tomorrow's Visionaries: Where Software Development Meets Innovation.</p>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <ul className="button-Navigation">
+                            <li className='contact2-Button'><NavLink to="/contact">REQUESTS</NavLink></li>
+                            <li className='contact3-Button'><NavLink to="/products">PRODUCTS</NavLink></li>
+
+                        </ul>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                    </div>
                     <div className="image-container">
                         <img src={Blueprint} className="blueprint-img" alt="Blueprint"/>
-                        <img src={Blueprint2} className="blueprint2-img" alt="Blueprint"/>
-                        <img src={Blueprint4} className="blueprint2-img" alt="Blueprint"/>
-                        <img src={Blueprint3} className="blueprint2-img" alt="Blueprint"/>
+                        <img src={Blueprint2} className="blueprint-img" alt="Blueprint"/>
+                        <img src={Blueprint4} className="blueprint-img" alt="Blueprint"/>
+                        <img src={Blueprint3} className="blueprint-img" alt="Blueprint"/>
                     </div>
                     
                     <div className="mission-container">

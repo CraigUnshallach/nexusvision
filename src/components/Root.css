@@ -4,6 +4,10 @@ main {
 
 .title-container {
     margin-top: 30.25%;
+    
+}
+
+.content-container {
     margin-left: 14%;
 }
 
@@ -77,15 +81,15 @@ ul {
     margin-top: 7%;
     margin-bottom: 7%;
     margin-right: 43%;
+    margin-left: 14%;
 }
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #2668D1 ;
-    margin-left: -35%;
-    padding-bottom: 4%;
-    padding-top: 4%;
+    width: 92%;
+    padding: 4%;
     border-block-end:  0.1rem solid;
     border-block-end-color: rgba(255,255,255,0.2);
     border-block-start:  0.1rem solid;
@@ -93,17 +97,12 @@ ul {
 }
 
 .blueprint-img {
-    width: 25rem;
-    height: 15rem;
+    max-width: 25rem;
+    max-height: 15rem;
+    width: 100%;
+    height: auto;
     object-fit: cover;
-    margin-left: 10%;
-    box-shadow: 0 1px 1px rgba(0,0,0,.5);
-}
-
-.blueprint2-img {
-    width: 25rem;
-    height: 15rem;
-    margin-left: 1.5%;
-    object-fit: cover;
+    overflow: hidden;
+    margin: 1rem;
     box-shadow: 0 1px 1px rgba(0,0,0,.5);
 }

@@ -1,0 +1,133 @@
+.produkt-container1 {
+    padding-top: 5rem;
+    background-color: #1F54AB;
+    min-height: 400px;
+    width: 86%;
+    padding-left: 14%;
+    margin-top: 11rem;
+    display: flex;
+    overflow: visible;
+}
+.produkt-container {
+    background-color: #1F54AB;
+    padding-top: 4.5rem;
+    min-height: 400px;
+    width: 86%;
+    padding-left: 14%;
+    display: flex;
+    overflow: visible;
+}
+
+.produkt-container-switch {
+    background-color: #1F54AB;
+    padding-top: 4.5rem;
+    min-height: 400px;
+    width: 72%;
+    padding-right: 14%;
+    padding-left: 14%;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+}
+
+.produkt-container-switch1 {
+    margin-top: 4.5rem;
+    min-height: 400px;
+    width: 72%;
+    padding-left: 14%;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    margin-bottom: 5rem;
+}
+
+.produktimg-container {
+    width: 27%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+.produktimg-container-switch {
+    width: 27%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.produkte-title {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 90px;
+    text-align: left;
+    margin-top: 5rem;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.produkttext-container {
+    width: 60%;
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.produkttext-container-switch {
+    width: 305%;
+    margin-right: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+.produkt-img {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-right: 5rem;
+    border-radius: 1.5%;
+    width: 110%;
+    max-height: 40rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.produkt-img-switch {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 1.5%;
+    width: 171.95%;
+    max-height: 40rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+.produktimg-container-switch {
+    padding-right: 14%;
+    width: 100%;
+}
+
+.produkt-title-h3 {
+    color: white;
+    font-size: 44px;
+    margin-top: 1.5rem;
+}
+
+.produkt-info {
+    color: white;
+    margin-right: 14%;
+    line-height: 1.4;
+}
+.produkt-info1 {
+    color: white;
+    margin-right: 14%;
+    line-height: 1.4;
+    
+}
+
+.produkt-info-switch {
+    color: white;
+    line-height: 1.4;
+}
+
