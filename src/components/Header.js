@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import "./Header.css";
 import Logo from './nexusvision2.png';
 
-
+// This function represents the header
 export default function Header () {
   const [scrolling, setScrolling] = useState(false);
 
